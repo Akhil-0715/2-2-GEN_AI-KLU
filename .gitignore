@@ -1,0 +1,40 @@
+# API keys and environment variables
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.labgenAi/
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Testing cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Build files
+build/
+dist/
+*.egg-info/
